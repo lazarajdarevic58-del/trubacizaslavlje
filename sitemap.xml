@@ -1,41 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://trubacizaslavlje.rs/</loc>
     <priority>1.00</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-beograd.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-kragujevac.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-kraljevo.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-leskovac.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-nis.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-novi-sad.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-smederevo.html</loc>
+    <priority>0.90</priority>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-vranje.html</loc>
+    <priority>0.90</priority>
   </url>
+
 </urlset>
 
 
