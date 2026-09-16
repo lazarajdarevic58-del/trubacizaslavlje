@@ -1,72 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Trubači Lazar Ajdarević | Trubači za svadbe širom Srbije</title>
-<meta name="description" content="Trubači Lazar Ajdarević – porodična tradicija od 1989. godine. Muzika uživo za svadbe, rođendane, veridbe, krštenja, rođenja i sva veselja širom Srbije. Pozovite 063 833 6970.">
-<meta name="keywords" content="trubači, trubači Beograd, trubači Vranje, trubači Niš, trubači Novi Sad, trubači Kragujevac, trubači Kraljevo, trubači Leskovac, trubači Srbija, trubači za svadbe, Lazar Ajdarević">
-<meta name="robots" content="index,follow">
-<meta name="theme-color" content="#080604">
-<meta property="og:title" content="Trubači Lazar Ajdarević – Muzika uživo">
-<meta property="og:description" content="Tri generacije tradicije od 1989. Trubači za svadbe, rođendane, veridbe, krštenja i proslave širom Srbije.">
-<meta property="og:type" content="website">
-<style>
-:root{--bg:#080604;--panel:#120b07;--gold:#d9ad54;--gold2:#f1cf7b;--cream:#f7efe2;--muted:#b8aa94;--line:#3a2817}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}img,video{max-width:100%;display:block}.wrap{max-width:1320px;margin:auto}
-header{position:fixed;z-index:50;top:0;left:0;right:0;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(#080604f5,transparent);transition:.3s}.scrolled{background:#080604ee;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}.logo{font-weight:900;letter-spacing:.4px;font-size:14px}.logo span,.goldtext,.label{color:var(--gold)}nav{display:flex;gap:18px;font-size:11px;font-weight:800;align-items:center}nav a:hover{color:var(--gold2)}.call{background:var(--gold);color:#130c05;padding:11px 17px;border-radius:30px}
-.hero{min-height:100svh;display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080604f7 0%,#080604c7 38%,#08060445 72%,#08060420),url("assets/hero.jpeg") center/cover}.hero:after{content:"";position:absolute;inset:auto 0 0;height:30%;background:linear-gradient(transparent,var(--bg))}.hero-content{position:relative;z-index:2;margin-left:8%;max-width:780px;padding-top:60px}.label{font-size:10px;letter-spacing:3px;font-weight:900}.hero h1{font-size:clamp(50px,8.2vw,105px);line-height:.87;letter-spacing:-5px;margin:20px 0}.goldtext{font-family:Georgia,serif;font-style:italic}.lead{font-size:18px;line-height:1.7;color:#ded2c1;max-width:680px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:15px 21px;border-radius:5px;font-size:11px;font-weight:900;display:inline-block}.gold{background:var(--gold);color:#120b05}.outline{border:1px solid #ffffff55;background:#08060444}.quick{display:flex;gap:20px;margin-top:34px;color:#a99a84;font-size:10px;text-transform:uppercase;letter-spacing:1.5px}.quick b{color:#eee0cb;font-size:13px;display:block;margin-bottom:4px}
-section{padding:115px 7%}h2{font-size:clamp(42px,6vw,76px);line-height:.98;letter-spacing:-3px;margin:15px 0 35px}.dark{background:#0d0805}.about{display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:center}.about p{color:var(--muted);line-height:1.85}.about img{width:100%;height:590px;object-fit:cover}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:48px}.year{border-top:1px solid var(--gold);padding-top:20px}.year b{font-size:35px;color:var(--gold)}.year strong{display:block;margin:8px 0}.year span{color:var(--muted);font-size:13px}
-/* THE TRUMPET MOMENT */
-.live{position:relative;min-height:650px;display:flex;align-items:center;overflow:hidden;background:#050403}.live video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;filter:saturate(.9) contrast(1.05)}.live:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080604f2 0%,#080604b8 50%,#08060440 100%)}.live-content{position:relative;z-index:2;max-width:760px}.live h2{font-size:clamp(48px,7vw,92px)}.pulse{display:flex;align-items:end;gap:5px;height:42px;margin:30px 0}.pulse i{display:block;width:5px;background:var(--gold);border-radius:5px;animation:pulse 1s ease-in-out infinite}.pulse i:nth-child(1){height:18px}.pulse i:nth-child(2){height:33px;animation-delay:.1s}.pulse i:nth-child(3){height:25px;animation-delay:.2s}.pulse i:nth-child(4){height:40px;animation-delay:.3s}.pulse i:nth-child(5){height:28px;animation-delay:.4s}.pulse i:nth-child(6){height:36px;animation-delay:.5s}.pulse i:nth-child(7){height:20px;animation-delay:.6s}@keyframes pulse{50%{transform:scaleY(.35);opacity:.5}}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{padding:30px;background:var(--panel);border:1px solid var(--line);min-height:230px;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#6d4b24}.card small{color:var(--gold)}.card h3{margin-top:55px;font-size:24px}.card p{color:var(--muted);line-height:1.6;font-size:14px}
-.gallery{background:#090604}.gallery-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}.gallery-grid img{width:100%;height:350px;object-fit:cover}.gallery-grid .big{height:500px;grid-row:span 2}.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.videos video{width:100%;height:500px;object-fit:cover;background:#000}.caption{padding:12px 0;color:#9f907c;font-size:10px;letter-spacing:1.2px}
-.citylist{display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:20px;margin-top:35px}.city-box{background:var(--panel);border:1px solid var(--line);padding:25px;border-radius:5px;transition:.25s}.city-box:hover{border-color:var(--gold);transform:translateY(-3px)}.city-box h3{color:var(--gold);margin:0 0 10px 0;font-size:20px}.city-box p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
-.seo-note{max-width:850px;color:#8f806b;line-height:1.7;font-size:13px;margin-top:25px}
-.social{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.social a{border:1px solid var(--line);padding:13px 17px;font-size:11px;font-weight:900}.social a:hover{border-color:var(--gold);color:var(--gold2)}
-.faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq details{background:var(--panel);border:1px solid var(--line);padding:20px}.faq summary{cursor:pointer;font-weight:800}.faq p{color:var(--muted);line-height:1.7;font-size:14px}
-.cta{text-align:center;padding:135px 20px;background:radial-gradient(circle,#392411,#100a06 48%,#070504 80%)}.cta p{color:var(--muted)}footer{border-top:1px solid #2c2015;padding:30px 7%;display:flex;justify-content:space-between;color:#8d7e69;font-size:11px}
-.float-call{position:fixed;z-index:60;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:var(--gold);color:#120b05;display:grid;place-items:center;font-weight:900;box-shadow:0 8px 30px #0009}.float-call:hover{transform:scale(1.06)}
-@media(max-width:900px){nav{display:none}.hero-content{margin:0 6%}.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-grid .big{grid-column:span 2;grid-row:auto;height:400px}.videos{grid-template-columns:1fr 1fr}.faq{grid-template-columns:1fr}}
-@media(max-width:560px){.hero h1{font-size:49px;letter-spacing:-2px}.lead{font-size:15px}.buttons .btn{width:100%;text-align:center}.cards,.gallery-grid,.videos{grid-template-columns:1fr}.gallery-grid .big{grid-column:auto;height:350px}.gallery-grid img{height:280px}.videos video{height:500px}section{padding:85px 6%}.quick{gap:12px;flex-wrap:wrap}.live{min-height:570px}footer{display:block}.float-call{bottom:15px;right:15px}}
-</style>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"Trubači Lazar Ajdarević","description":"Trubački orkestar za svadbe, rođendane, veridbe, krštenja i druga veselja širom Srbije.","telephone":"+381638336970","areaServed":"Serbia","foundingDate":"1989","url":"","sameAs":["https://www.instagram.com/trubaci_lazar_ajdarevic/"]}
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trubači za slavlja širom Srbije | Orkestar Lazar Ajdarević</title>
+    <meta name="description" content="Orkestar Lazar Ajdarević donosi živu trubačku atmosferu na svadbe, rođendane, veridbe i privatne proslave širom Srbije. Pozovite 063/833-6970.">
+    <style>
+        :root { --gold: #d4af37; --dark: #111; --light: #fff; --grey: #222; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--dark); color: var(--light); line-height: 1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/index.jpg') center/cover; padding: 60px 20px; text-align: center; border-bottom: 3px solid var(--gold); }
+        .gold-text { color: var(--gold); font-weight: bold; text-transform: uppercase; letter-spacing: 2px; font-size: 14px; }
+        h1 { font-size: 2.5rem; margin: 15px 0; color: var(--light); }
+        .quote { font-style: italic; color: #ccc; margin: 20px 0; font-size: 1.1rem; }
+        .btn { display: inline-block; background-color: var(--gold); color: var(--dark); padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 25px; margin: 10px 5px; transition: 0.3s; }
+        .btn:hover { background-color: var(--light); }
+        .btn-outline { background: transparent; color: var(--light); border: 2px solid var(--light); }
+        section { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+        h2 { text-align: center; color: var(--gold); margin-bottom: 25px; font-size: 1.8rem; border-bottom: 1px solid var(--grey); padding-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        @media(max-width: 600px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 2rem; } }
+        .card { background-color: var(--grey); padding: 20px; border-radius: 8px; border-left: 4px solid var(--gold); }
+        .card h3 { margin-bottom: 10px; color: var(--light); }
+        .list-item { background: var(--grey); padding: 15px; margin: 10px 0; border-radius: 5px; font-size: 1.1rem; }
+        .links-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; text-align: center; }
+        .link-btn { background: var(--grey); color: var(--light); padding: 10px; text-decoration: none; border-radius: 5px; border: 1px solid #333; display: block; }
+        .link-btn:hover { border-color: var(--gold); color: var(--gold); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+        .gallery img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; border: 2px solid #333; }
+        .contact-box { background: linear-gradient(var(--grey), #000); padding: 30px; text-align: center; border-radius: 10px; border: 1px solid var(--gold); margin-top: 30px; }
+        .contact-box p { font-size: 1.3rem; margin-bottom: 15px; }
+        .phone-num { font-size: 2rem; color: var(--gold); font-weight: bold; display: block; margin-bottom: 15px; text-decoration: none; }
+        footer { text-align: center; padding: 30px 20px; font-size: 0.9rem; color: #666; border-top: 1fr solid var(--grey); margin-top: 40px; }
+    </style>
 </head>
 <body>
-<header id="header">
-  <a class="logo" href="#pocetna">TRUBAČI <span>LAZAR AJDAREVIĆ</span></a>
-  <nav>
-    <a href="#o-nama">O NAMA</a>
-    <a href="#proslave">PROSLAVE</a>
-    <a href="#gradovi">GRADOWI</a>
-    <a href="tel:+381638336970" class="call">POZOVITE ODMAH</a>
-  </nav>
-</header>
 
-<main>
-  <!-- OVDE DOLAZI OSTATAK VAŠEG HERO I ABOUT SADRŽAJA KOJI IMATE -->
-  
-  <section class="dark" id="gradovi">
-    <div class="wrap">
-      <div class="label">LOKALNI SEO COVERAGE</div>
-      <h2>Gradovi u kojima sviramo</h2>
-      <p class="lead">Orkestar Lazara Ajdarevića donosi najbolju energiju i vrhunski zvuk na vaša slavlja širom cele Srbije, od juga pa sve do severa Vojvodine.</p>
-      
-      <div class="citylist">
-        <div class="city-box">
-          <h3>Trubači Vranje</h3>
-          <p>Kao čuveni trubači iz Vranja, donosimo autentični južnjački melos i energiju. Orkestar Lazara Ajdarevića garantuje nezaboravan provod na vašim svadbama i proslavama u Vranju.</p>
-        </div>
-        <div class="city-box">
-          <h3>Trubači Leskovac</h3>
-          <p>Najbolji trubači za svadbe u Leskovcu spremni su da podignu atmosferu do usijanja. Tradicija, nagrade i profesionalizam koji Lazar Ajdarević donosi garantuju veselje za pamćenje.</p>
-        </div>
-        <div class="city-box">
-          <h3>Trubači Niš</h3>
-          <p>Planirate proslavu u Nišu? Naš trubački orkestar je vaš najbolji izbor za rođendane, krštenja i svadbe. Pozovite trubače Lazara Ajdarevića i osigurajte vrhunski muzički program.</p>
-        </div>
-        <div class="city-box">
-          <h3>Trubači Kragujevac</h3>
+    <header>
+        <p class="gold-text">Muzika Uživo • Srbija</p>
+        <h1>Trubači za slavlja širom Srbije</h1>
+        <p>Orkestar Lazar Ajdarević donosi živu trubačku atmosferu na svadbe, rođendane, veridbe i privatne proslave.</p>
+        <p class="quote">„Kad zasvira truba, veselje dobije svoj glas.“</p>
+        <a href="tel:0638336970" class="btn">☎ Pozovi 063/833-6970</a>
+        <a href="#galerija" class="btn btn-outline">Look at Gallery</a>
+    </header>
 
+    <section>
+        <h2>Orkestar Lazar Ajdarević</h2>
+        <p style="text-align: center; font-size: 1.1rem; margin-bottom: 20px;">Sviramo sa energijom, tradicijom i željom da svaki događaj dobije atmosferu koju gosti pamte. Termin, lokaciju i detalje nastupa dogovaramo direktno.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Živa muzika</h3>
+                <p>Trubačka atmosfera uživo za različite vrste proslava.</p>
+            </div>
+            <div class="card">
+                <h3>Širom Srbije</h3>
+                <p>Dolazimo na dogovorenu lokaciju i van našeg grada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Za koje proslave sviramo?</h2>
+        <p style="text-align: center; margin-bottom: 20px;">Od prvog do poslednjeg takta — muzika uživo za trenutke koji se pamte.</p>
+        <div class="list-item">💍 <strong>Svadbe:</strong> Doček gostiju, veselje i trubačka atmosfera.</div>
+        <div class="list-item">🎂 <strong>Rođendani:</strong> Živa muzika za rođendanske proslave.</div>
+        <div class="list-item">🥂 <strong>Veridbe:</strong> Poseban muzički trenutak za poseban dan.</div>
+        <div class="list-item">🎉 <strong>Privatne proslave:</strong> Okupljanja i veselja po dogovoru.</div>
+        <div class="list-item">🎺 <strong>Druga veselja:</strong> Javite se i proverite mogućnost nastupa.</div>
+        <div class="list-item">📍 <strong>Srbija:</strong> Nastupamo u Beogradu i širom Srbije.</div>
+    </section>
+
+    <section>
+        <h2>Trubači po gradovima</h2>
+        <p style="text-align: center; margin-bottom: 20px;">Za lokalnu pretragu napravili smo posebne stranice za gradove ispod.</p>
+        <div class="links-grid">
+            <a href="trubaci-beograd.html" class="link-btn">Beograd</a>
+            <a href="#" class="link-btn">Novi Sad</a>
+            <a href="#" class="link-btn">Niš</a>
+            <a href="trubaci-kragujevac.html" class="link-btn">Kragujevac</a>
+            <a href="#" class="link-btn">Vranje</a>
+            <a href="trubaci-leskovac.html" class="link-btn">Leskovac</a>
+            <a href="trubaci-kraljevo.html" class="link-btn">Kraljevo</a>
+            <a href="#" class="link-btn">Smederevo</a>
+        </div>
+    </section>
+
+    <section id="galerija">
+        <h2>Galerija</h2>
+        <p style="text-align: center; margin-bottom: 20px; font-size: 0.9rem; color: #888;">Klikni na fotografiju — svaka slika je zaseban fajl u sajtu, bez spoljnjih linkova.</p>
+        <div class="gallery">
+            <img src="images/index.jpg" alt="Orkestar Lazar Ajdarević">
+            <img src="images/slika2.jpg" alt="Trubači Lazar Ajdarević">
+            <img src="images/slika3.jpg" alt="Orkestar na proslavi">
+            <img src="images/slika4.jpg" alt="Lazar Ajdarević sa trubom">
+            <img src="images/slika5.jpg" alt="Trubač Lazar Ajdarević">
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-box">
+            <h2>Rezervišite termin</h2>
+            <p>Pozovite za cenu, datum i dogovor oko nastupa.</p>
+            <a href="tel:0638336970" class="phone-num">063/833-6970</a>
+            <div style="margin-top: 15px;">
+                <a href="tel:0638336970" class="btn">☎ Pozovi</a>
+                <a href="https://wa.me" class="btn" style="background-color: #25D366; color: white;">WhatsApp</a>
+                <a href="viber://contact?number=%2B381638336970" class="btn" style="background-color: #7360F2; color: white;">Viber</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Orkestar Lazar Ajdarević</p>
+        <p>Trubači Beograd • Trubači širom Srbije</p>
+    </footer>
+
+</body>
+</html>
