@@ -1,86 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Pocetna stranica -->
+
   <url>
     <loc>https://trubacizaslavlje.rs/</loc>
-    <priority>1.00</priority>
   </url>
-  
-  <!-- Svi gradovi u mrezi -->
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-beograd.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-cacak.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-gornji-milanovac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-jagodina.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-kragujevac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-kraljevo.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-krusevac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-leskovac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-nis.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-novi-sad.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-pancevo.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-pozarevac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-sabac.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-smederevo.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-subotica.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-valjevo.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-vranje.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-zabalj.html</loc>
   </url>
+
   <url>
-    <loc>https://trubacizaslavlje.rs</loc>
-    <priority>0.80</priority>
+    <loc>https://trubacizaslavlje.rs/trubaci-zajecar.html</loc>
   </url>
+
 </urlset>
