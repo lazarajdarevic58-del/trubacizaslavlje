@@ -46,6 +46,132 @@
         <a href="tel:+381628586372" class="btn">☎ Pozovi 062/858-6372</a>
         <a href="#galerija" class="btn btn-outline">Pogledaj galeriju</a>
     </header>
+     
+<!-- STATISTIKA - ORKESTAR LAZAR AJDAREVIC -->
+<section class="lazar-stats">
+  <div class="lazar-stats-grid">
+
+    <div class="lazar-stat">
+      <div class="lazar-number">1989.</div>
+      <div class="lazar-stat-title">GODINA TRADICIJE</div>
+      <div class="lazar-line"></div>
+      <p>Porodična ljubav prema trubi</p>
+    </div>
+
+    <div class="lazar-stat">
+      <div class="lazar-number" data-count="5000">0+</div>
+      <div class="lazar-stat-title">ODSVIRANIH VESELJA</div>
+      <div class="lazar-line"></div>
+      <p>Trenuci za pamćenje</p>
+    </div>
+
+    <div class="lazar-stat">
+      <div class="lazar-number" data-count="19">0+</div>
+      <div class="lazar-stat-title">GRADOVA SRBIJE</div>
+      <div class="lazar-line"></div>
+      <p>Od juga do severa Srbije</p>
+    </div>
+
+    <div class="lazar-stat">
+      <div class="lazar-number">100%</div>
+      <div class="lazar-stat-title">POSVEĆENOST MUZICI</div>
+      <div class="lazar-line"></div>
+      <p>Svako veselje sviramo srcem</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.lazar-stats {
+  background:linear-gradient(135deg,#090909,#17130a,#090909);
+  padding:65px 15px;
+  border-top:1px solid #8d7024;
+  border-bottom:1px solid #8d7024;
+  text-align:center;
+}
+
+.lazar-stats-grid {
+  max-width:950px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:55px 20px;
+}
+
+.lazar-number {
+  color:#d4af37;
+  font-family:Georgia,serif;
+  font-size:clamp(38px,7vw,62px);
+  font-weight:bold;
+  font-style:italic;
+  line-height:1.2;
+  text-shadow:0 0 18px #d4af3733;
+}
+
+.lazar-stat-title {
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  letter-spacing:1.5px;
+  margin-top:10px;
+}
+
+.lazar-line {
+  width:45px;
+  height:2px;
+  background:#d4af37;
+  margin:13px auto;
+}
+
+.lazar-stat p {
+  color:#aaa;
+  font-size:13px;
+}
+
+@media(max-width:400px) {
+  .lazar-stats-grid {
+    gap:40px 8px;
+  }
+  .lazar-stat-title {
+    font-size:11px;
+    letter-spacing:1px;
+  }
+}
+</style>
+
+<script>
+(function(){
+  const numbers = document.querySelectorAll(
+    '.lazar-number[data-count]'
+  );
+
+  const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        const el=entry.target;
+        const target=Number(el.dataset.count);
+        const start=performance.now();
+        const duration=1600;
+
+        function animate(now){
+          const progress=Math.min((now-start)/duration,1);
+          const value=Math.floor(target*progress);
+          el.textContent=value.toLocaleString('sr-RS')+'+';
+
+          if(progress<1) requestAnimationFrame(animate);
+        }
+
+        requestAnimationFrame(animate);
+        observer.unobserve(el);
+      }
+    });
+  });
+
+  numbers.forEach(el=>observer.observe(el));
+})();
+</script>
+<!-- KRAJ STATISTIKE -->
 
     <!-- NOVA SEKCIJA: O NAMA -->
     <section id="o-nama">
